@@ -38,7 +38,7 @@ seems time consuming, but provides more robustness in the long run
 **Requirements external resources**
 - [UMN homework trivia-4](https://www.d.umn.edu/~gshute/cs4531/programming/trivia-4/user-login.xhtml)
 
-**a11y**:
+**a11y**
 - [w3.org forms](https://www.w3.org/WAI/tutorials/forms/)
 - [cantina.co form errors screen readers can access](https://cantina.co/form-errors-screen-readers-can-access/)
 - [webaim.org form validation](http://webaim.org/techniques/formvalidation/)
@@ -50,9 +50,9 @@ Figure out project limitations:
     - time
     - money
     - personnel (people and skills)
-External Resources:
-- [lullabot](https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job)  
-- [tutsplus](https://webdesign.tutsplus.com/tutorials/the-noobs-guide-to-choosing-a-javascript-framework--cms-28538)  
+External Resources
+- [lullabot](https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job)
+- [tutsplus](https://webdesign.tutsplus.com/tutorials/the-noobs-guide-to-choosing-a-javascript-framework--cms-28538)
 - [@ZombieCodeKill](https://medium.com/@ZombieCodeKill/choosing-a-javascript-framework-535745d0ab90)
 ---
 ## Framework difference at the DOM (Document Object Model)
@@ -125,14 +125,17 @@ open db.test.js
 ## 02 - How do I test the code instead of testing the test?
 ---
 Modules
+[02 - Modules](https://github.com/danielim/login-talk/tree/master/02)
 ---
 ## 03 - Oh, I forgot to validate users
 
 - added those functions
 - cleaned up db.serialize() where not needed
 - made `'` into `"`
+[03 - Continuation and Cleanup](https://github.com/danielim/login-talk/tree/master/03)
 ---
 ## main - How do I unit test express? HTTP requests
+[Express](https://github.com/danielim/login-talk/tree/master/)
 
 Note:
 In an ideal world, the 4 steps would be all you need. Technical debt and other constraints cause you to shift from your ideal process. Be accepting of changes in the process as long as they don't hinder other teammates. Otherwise make sure to communicate these changes.
