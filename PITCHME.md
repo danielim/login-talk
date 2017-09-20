@@ -15,3 +15,6 @@ Process of solving a coding challenge
 
 ---
 
+![angular-react](pitchme-img/angular-react-elements.png)
+
+---
