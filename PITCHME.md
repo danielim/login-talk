@@ -28,12 +28,84 @@ seems time consuming, but provides more robustness in the long run
 # Requirements
 
 - Functionality
+
+Note:
+- store login data in database
+- retrieve data from database
+- validate login data, return pass or fail
+
+---
+# Requirements
+
+- Functionality
+- Layout
+
+Note:
+- provide 2 text fields, login, password
+- provide registration button
+- provide login button
+---
+# Requirements
+
+- Functionality
+- Layout
+- Validation
+
+Note:
+- display warning "user name required" if field is left empty
+- display warning "password required" if field is left empty
+- display warning "Incorrect user name or password" if invalid user/pass combination
+---
+# Requirements
+
+- Functionality
+- Layout
+- Validation
+- Accessibility (a11y)
+
+Note:
+- Label controls: WAI-ARIA, title, label element
+- Show comprehensive errors
+- Validate input
+- Notify users of success, loading, or failed task and how to correct mistakes
+- screen readers
+---
+# Requirements
+
+- Functionality
+- Layout
+- Validation
+- Accessibility (a11y)
+- User Experience (UX)
+    - a11y and UX go hand in hand. Keeping a11y in mind will improve your UX coverage.
+
+Notes:
+- does the cursor auto focus on username on page load?
+- can you navigate and submit with the keyboard only?
+- should you keep username on failed attempts?
+- Is it easy to click on the input fields?
+- is the intention of the component clear?
+- are the error messages comprehensive?
+---
+# Requirements
+
+- Functionality
 - Layout
 - Validation
 - Accessibility (a11y)
 - User Experience (UX)
     - a11y and UX go hand in hand. Keeping a11y in mind will improve your UX coverage.
 - Security
+
+Note:
+- Security is in layers. Data is inputted, transmitted and is stored. Each layer has to be scrutinized.
+- can someone see the credentials when typed in?
+- can someone sniff the credentials across the wire?
+- can someone access the credentials where they are stored?
+    - is the password saved in plain text?
+    - Is there any way someone can access the database without going through our login?
+- can someone bypass the login? whatever information is protected by the login, can anyone else access it without being authenticated?
+
 ---
 **Requirements external resources**
 - [UMN homework trivia-4](https://www.d.umn.edu/~gshute/cs4531/programming/trivia-4/user-login.xhtml)
@@ -45,7 +117,7 @@ seems time consuming, but provides more robustness in the long run
 - [Stanford screen reader testing](https://soap.stanford.edu/tips-and-tools/screen-reader-testing)
 - [Claws Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/claws/) screen reader emulator for firefox
 ---
-## Choosing Tools
+## Choosing Framework
 Figure out project limitations:
     - time
     - money
@@ -74,7 +146,7 @@ Vue vs Vanilla DOM
 
 - What the team knows best
 - What the framework exceeds at if you only need that particular feature
-- Really, mostly just team preference
+- Really, mostly just team preference, people still use COBOL, Fortran, etc
 ---
 ## Iterate
 
@@ -88,12 +160,19 @@ prototype -> make robust -> optimize
 - Focus on adding necessary features per user request and code organization
 
 ## Optimize
-- Focus on code organization and optimization.
+- Focus on code organization and optimization
+
+Note:
+sometimes a mix of frameworks or low level code will give you more bang for the buck if puzzled correctly.
 ---
 ## Writing Tests
 Many options out there, just choose one. Most are able to do what you need or can use plugins.
 
-`mochajs`
+- mochajs
+    - mochajs + (should, expect, chai, better-assert, unexpected)
+- jasmine
+- jest
+- many more
 ---
 ## Unit/Functional tests
 - store login data in database
@@ -148,6 +227,10 @@ The front-end login component is HTML only. I'll add other frameworks to the mix
     Twitter: @imdanielch
     LinkedIn: https://www.linkedin.com/in/imdanielch
     GitHub: https://github.com/danielim/
+    This talk available at:
+        https://github.com/danielim/login-talk
 ---
 # Questions?
+---
+Final thought: Make things. I learned more by creating this talk than I would have just reading and watching tutorials for weeks.
 ---
