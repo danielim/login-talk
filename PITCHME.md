@@ -122,13 +122,30 @@ Figure out project limitations:
     - time
     - money
     - personnel (people and skills)
-External Resources
-- [lullabot](https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job)
-- [tutsplus](https://webdesign.tutsplus.com/tutorials/the-noobs-guide-to-choosing-a-javascript-framework--cms-28538)
-- [@ZombieCodeKill](https://medium.com/@ZombieCodeKill/choosing-a-javascript-framework-535745d0ab90)
+External resources explaining differences in frameworks
+- [lullabot - Choosing the right js framework](https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job)
+- [tutsplus - Noob guide to choosing a js framework](https://webdesign.tutsplus.com/tutorials/the-noobs-guide-to-choosing-a-javascript-framework--cms-28538)
+- [@ZombieCodeKill - Choosing a js framework](https://medium.com/@ZombieCodeKill/choosing-a-javascript-framework-535745d0ab90)
+
+Note:
+Frameworks are not very different nowadays.
+---
+[@ZombieCodeKill - Choosing a js framework](https://medium.com/@ZombieCodeKill/choosing-a-javascript-framework-535745d0ab90)
+    "Rob says that to be honest all of these frameworks are very fast because 50 frames per second is faster than what we can usually see."
+
+Note:
+Audiophile analogy
+    - the chain from source to destination
+    - for the most part, unless you do side by side comparison, the framework itself won't be the limiting factor, instead it would be whether your code is optimized.
+
+react got virtualDOM popular, now everyone has it.
+
 ---
 ## Framework difference at the DOM (Document Object Model)
 [ToDoMVC](http://todomvc.com/)
+
+Note:
+Click the link. Explain what it is
 ---
 Angular 1 vs React Network Speed
 ![angular-react](pitchme-img/angular-react-network.png)
@@ -149,17 +166,18 @@ Vue vs Vanilla DOM
 - Really, mostly just team preference, people still use COBOL, Fortran, etc
 ---
 ## Iterate
-
-prototype -> make robust -> optimize
+minimum refactor count
+`prototype -> make robust -> optimize`
 ---
-## Prototyping
-- Minimize all resources
+**Prototyping**
+- Minimize cost
 - Identify the fewest requirements that expresses the idea to the user
+- Focus on speed
 
-## Make robust
+**Make robust**
 - Focus on adding necessary features per user request and code organization
 
-## Optimize
+**Optimize**
 - Focus on code organization and optimization
 
 Note:
