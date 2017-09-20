@@ -79,7 +79,7 @@ Note:
 - User Experience (UX)
     - a11y and UX go hand in hand. Keeping a11y in mind will improve your UX coverage.
 
-Notes:
+Note:
 - does the cursor auto focus on username on page load?
 - can you navigate and submit with the keyboard only?
 - should you keep username on failed attempts?
