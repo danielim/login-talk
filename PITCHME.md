@@ -1,17 +1,17 @@
 ---
 
-# The Process of Creating a Login Component
+# JavaScript Arrow Functions
 Daniel Chen
 
 ---
 
-- Originally Biology major
-- Almost 2 years in tech industry
-- Help organize HCJS
+Also known as fat arrows `=>`
 
 ---
-- Kevin Lamping - Testing Login, October 18th, 2017
-- Nate Barbettini - OAuth2 and OpenID in Simple English, November 15th, 2017
+
+It comes from CoffeeScript's function expression `->`
+![CoffeeScript Arrow Function](img/coffeescript-arrow.png)
+
 ---
 
 # Process of solving a coding challenge
