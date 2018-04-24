@@ -213,6 +213,6 @@ var swithcB = false;
 
 - Discord: https://discord.gg/sCK2Q29
 - Slides available at:
-[Operators and Conditionals](https://github.com/danielim/presentations/tree/operators-conditionals)
+https://github.com/danielim/presentations/tree/operators-conditionals
 
 ---
