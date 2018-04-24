@@ -2,5 +2,5 @@ JavaScript Arrow Functions
 ==========================
 
 
-[Slides](https://gitpitch.com/danielim/presentations/js-fat-arrow?grs=github&t=black)
+[Slides](https://gitpitch.com/danielim/presentations/operators-conditionals?grs=github&t=black)
 
