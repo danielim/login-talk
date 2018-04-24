@@ -60,9 +60,12 @@ x < y
 x <= y
 ```
 etc
-## Equality Comparisons and Sameness
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
-* https://www.youtube.com/watch?v=ZZmDYaXQFWk HillCountry JS meetup 10/21/2013
+
+---
+
+# Comparison (more)
+* [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+* [Kyle Simpson presentation](https://www.youtube.com/watch?v=ZZmDYaXQFWk) HillCountry JS meetup 10/21/2013
 
 (take opinion with a grain of salt. Style, optimization, technical debt, organizational resources and protocols)
 
@@ -79,7 +82,12 @@ etc
 true && false || true
 ```
 
+---
+
 ![Operator precedence](img/operator_precedence.png)
+
+---
+
 * [MDN: Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 * [MDN: Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 
@@ -89,7 +97,7 @@ true && false || true
 'cat' && null || 'dog'
 true || false && true || false
 ```
-![MDN: Short-circuit Evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation)
+[MDN: Short-circuit Evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation)
 
 ---
 
@@ -112,7 +120,7 @@ var plate = (mary && peter) || mary || peter;
 ```
 
 This doesn't make much sense because plate would be assigned Peter's apples if
-```
+```javascript
 mary && peter
 ```
 resolves to true.
@@ -203,6 +211,6 @@ var swithcB = false;
 
 - Discord: https://discord.gg/sCK2Q29
 - Slides available at:
-        https://github.com/danielim/presentations/tree/operators-conditionals
+        [Operators and Conditionals](https://github.com/danielim/presentations/tree/operators-conditionals)
 
 ---
