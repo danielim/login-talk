@@ -84,10 +84,12 @@ true && false || true
 
 ---
 
+# Operator Precedence
 ![Operator precedence](img/operator_precedence.png)
 
 ---
 
+# Resources
 * [MDN: Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 * [MDN: Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 
@@ -211,6 +213,6 @@ var swithcB = false;
 
 - Discord: https://discord.gg/sCK2Q29
 - Slides available at:
-        [Operators and Conditionals](https://github.com/danielim/presentations/tree/operators-conditionals)
+[Operators and Conditionals](https://github.com/danielim/presentations/tree/operators-conditionals)
 
 ---
